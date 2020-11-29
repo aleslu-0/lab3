@@ -1,0 +1,18 @@
+	Reflection:
+-------------------------------------------------------
+"What did you learn? What did you know already?"
+-Things that were new: Pointers, pointers as parameters, file saving and file loading within c++.
+-Things that I already knew: I knew some things about pointers from the previous labs, and I've experienced working with text files in python and c#. 
+
+-------------------------------------------------------
+ "What was difficult in the lab? How did you overcome it?"
+-For this lab, understanding how and where to use pointers and working around not using indexing, were the biggest challenges.   
+-I overcame these by using the lecture pdfs from this course and googling the errors.
+
+-------------------------------------------------------
+"How can the lab be improved?"
+-I have no real complaints or suggestions about this lab. 
+
+-------------------------------------------------------
+"Additionally, write an estimate how many hours you spent on this lab."
+-I'd say 5 hours on this one. 
