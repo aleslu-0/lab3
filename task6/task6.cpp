@@ -41,11 +41,10 @@ void search(const vector<string>* names) {
     cout << "Name to search: ";
     cin >> str;
     int len = str.length();
-    string sstr;
     int size = names->size();
     //Using substring, check if substring is in each element
     for (int k = 0; k < size; k++) {
-        sstr = names->at(k);
+        string sstr = names->at(k);
         string substr = sstr.substr(0, len);
         if (substr == str) {
             cout << names->at(k) << endl;
@@ -103,8 +102,9 @@ int load(vector<string>* names) {
     names->clear();
     ifstream infile;
     string filename;
-    cout << "Name of file to load (e.g. filename.txt)" << endl;
+    cout << "Name of file to load (.txt will be added.)" << endl;
     cin >> filename;  
+    filename += ".txt";
     infile.open(filename);
     string data;
     getline(infile, data);
