@@ -129,9 +129,9 @@ int load(vector<string>* names) {
 
 int main()
 {
-    vector<string>name;
+    vector<string>name;   
     while (true) {
-        vector<string>*database = &name;
+        vector<string>* database = &name;
         int inp = 0;
         cout << "1. Initialise database" << endl;
         cout << "2. Insert" << endl;

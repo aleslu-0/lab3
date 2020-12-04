@@ -19,4 +19,5 @@ int main()
 
     replace_chars(ptr, sc, rc);
     cout << str; //herro rady
+    return 0;
 }
